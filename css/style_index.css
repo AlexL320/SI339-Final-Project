@@ -1,0 +1,8 @@
+.skip{
+    position: absolute;
+    top: -40px;
+}
+
+.skip:focus{
+    top: 20px;
+}
