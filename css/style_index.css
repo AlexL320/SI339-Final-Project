@@ -6,3 +6,17 @@
 .skip:focus{
     top: 20px;
 }
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.button{
+    font-size: 80px;
+    margin: 0 3%;
+    padding: 5px;
+    text-align: center;
+}
