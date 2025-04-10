@@ -5,13 +5,27 @@
 #main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 8%;
+    column-gap: 3%;
+    margin-top: 3%;
 }
 
 #main h2 {
     font-size: 30px;
     align-items: center;
     text-align: center;
-}.skip{
+    margin-bottom: 3%;
+}
+
+#main p {
+    text-align: center;
+}
+
+#main:last-child() {
+    grid-column: 2 / span 1;
+}
+
+.skip{
     position: absolute;
     top: -40px;
     background-color: gold;
@@ -38,19 +52,4 @@ header li{
 
 .current {
     color: gray;
-}
-
-.army {
-    background-color: #41533b;
-}
-
-#main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-#main h2 {
-    font-size: 30px;
-    align-items: center;
-    text-align: center;
 }
