@@ -103,6 +103,7 @@ header li{
     font-size: 20px;
     margin: 2%;
     padding: 2%;
+    visibility: hidden;
 }
 
 .main_army:last-child(){
@@ -114,6 +115,10 @@ header li{
     margin: 0 35%;
     background-color: #b0b0b0;
     border: 5px solid black;
+}
+
+.army_img:hover {
+
 }
 
 /*armoured*/
