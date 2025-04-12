@@ -92,12 +92,20 @@ header li{
 .main_army{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 25%;
+    row-gap: 3%;
     column-gap: 3%;
     margin-top: 3%;
 }
 
-.main_army p{
+.main_army h2 {
+    background-color: #9e9a75;
+}
+
+.main_army section {
+    display: inline-block;
+}
+
+.main_army p {
     text-align: center;
     color: white;
     font-size: 20px;
@@ -106,19 +114,19 @@ header li{
     visibility: hidden;
 }
 
+.main_army section:hover p {
+    visibility: visible;
+}
+
 .main_army:last-child(){
     grid-column: 2 / span 1;
 }
 
 .army_img{
-    width: 30%;
-    margin: 0 35%;
+    width: 60%;
+    margin: 0% 20%;
     background-color: #b0b0b0;
     border: 5px solid black;
-}
-
-.army_img:hover {
-
 }
 
 /*armoured*/
