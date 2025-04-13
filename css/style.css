@@ -102,6 +102,16 @@ header li{
     background-color: #9e9a75;
 }
 
+.army_h3{
+    font-size: 20px;
+    color: black;
+    background-color: #9e9a75;
+    text-align: center;
+    width: 60%;
+    margin: 0 20%;
+    border: 5px solid black;
+}
+
 .main_army section {
     display: inline-block;
 }
@@ -134,6 +144,14 @@ header li{
     visibility: hidden;
     position: relative;
     z-index: 3;
+}
+
+.stats{
+    color: black;
+    display: none;
+    background: #F1E4C7;
+    text-align: center;
+    margin: 0 35%;
 }
 
 .main_army section img:hover + p {
