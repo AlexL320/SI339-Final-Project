@@ -124,7 +124,7 @@ header li{
     }
 }
 
-p {
+.main_army p {
     text-align: center;
     color: white;
     background-color: #1c222e;
@@ -136,7 +136,7 @@ p {
     z-index: 3;
 }
 
-section img:hover + p {
+.main_army section img:hover + p {
     visibility: visible;
     animation-name: down, fade_in;
     animation-duration: 2s;
@@ -162,4 +162,23 @@ section img:hover + p {
     row-gap: 10%;
     column-gap: 1%;
     margin: 5% 1%;
+}
+
+.main_armor p {
+    text-align: center;
+    color: white;
+    background-color: #1c222e;
+    font-size: 20px;
+    margin: 2% 18% 2% 20%;
+    padding: 2%;
+    visibility: hidden;
+    position: relative;
+    z-index: 3;
+}
+
+.main_armor section img:hover + p {
+    visibility: visible;
+    animation-name: down, fade_in;
+    animation-duration: 2s;
+    z-index: 3;
 }
