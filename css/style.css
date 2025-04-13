@@ -12,6 +12,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
+    row-gap: 15%;
     margin-top: 30px;
 }
 
@@ -94,7 +95,7 @@ header li{
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 3%;
     column-gap: 3%;
-    margin-top: 3%;
+    margin: 5% 0;
 }
 
 .main_army h2 {
@@ -123,7 +124,7 @@ header li{
     }
 }
 
-.main_army p {
+p {
     text-align: center;
     color: white;
     background-color: #1c222e;
@@ -135,7 +136,7 @@ header li{
     z-index: 3;
 }
 
-.main_army section img:hover + p {
+section img:hover + p {
     visibility: visible;
     animation-name: down, fade_in;
     animation-duration: 2s;
@@ -158,7 +159,7 @@ header li{
 .main_armor{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 20%;
+    row-gap: 10%;
     column-gap: 1%;
-    margin: 1%;
+    margin: 5% 1%;
 }
