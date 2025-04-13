@@ -1,8 +1,11 @@
-const images = document.querySelectorAll("section")
+const sections = document.querySelectorAll("section");
 
-images.forEach((section, index) => {
-    image = section.getElementsByClassName("img")[0];
-    image.addEventListener('click', () => {
-        console.log("Image was clicked")
+sections.forEach((section, index) => {
+  const image = section.getElementsByClassName("img")[0];
+
+  if (image) { // Always good to check if image exists
+    image.addEventListener("click", () => {
+      console.log(`Image in section ${index + 1} was clicked`);
     });
+  }
 });
