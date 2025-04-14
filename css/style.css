@@ -147,11 +147,14 @@ header li{
 }
 
 .stats{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     color: black;
     display: none;
     background: #F1E4C7;
     text-align: center;
-    margin: 0 35%;
+    margin: 0 15%;
+    padding: 2% 0;
 }
 
 .main_army section img:hover + p {

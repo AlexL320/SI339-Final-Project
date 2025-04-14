@@ -7,12 +7,12 @@ sections.forEach((section, index) => {
     image.addEventListener("click", () => {
       console.log(`Image in section ${index + 1} was clicked`);
       const stats = section.querySelector("#stats");
-      if (stats.style.display == "block"){
+      if (stats.style.display == "grid"){
         stats.style.display = "none";
         console.log("hide stats");
       }
       else {
-        stats.style.display = "block";
+        stats.style.display = "grid";
         console.log("show stats");
       }
     });
