@@ -71,7 +71,7 @@ h2{
 .index_body{
     margin: 20px;
     padding: 10px;
-    background-image: url('/images/index/index_background.PNG');
+    background-image: url('../images/index/index_background.PNG');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-color: black;
