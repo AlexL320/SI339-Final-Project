@@ -239,6 +239,10 @@ header li{
     display: inline-block;
 }
 
+.main_navy h2 {
+    color: black;
+}
+
 .main_navy p {
     text-align: center;
     color: white;
