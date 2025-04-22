@@ -22,16 +22,19 @@ sections.forEach((section, index) => {
 var button_two = document.querySelector("#button");
 button_two.addEventListener("click", function() {
   console.log("clicked")
-  var secitons = document.querySelectorAll("section");
+  var sections = document.querySelectorAll("section");
   sections.forEach((section,index) => {
     const stats = section.querySelector("#stats");
+    const text = section.getElementsByTagName("p")[0]
     if (stats.style.display == "grid"){
       stats.style.display = "none";
+      text.style.visibility = "hidden"
       button_two.innerHTML = "Keyboard Restricted";
       console.log("hide stats");
     }
     else {
       stats.style.display = "grid";
+      text.style.visibility = "visible"
       button_two.innerHTML = "Not Keyboard Restricted";
       console.log("show stats");
     }
