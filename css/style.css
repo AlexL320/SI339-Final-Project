@@ -394,3 +394,12 @@ header li{
     border: 5px solid black;
     z-index: 2;
 }
+
+.air_button{
+    height: 52px;
+    font-size: 30px;
+    margin: 0 3%;
+    padding: 5px;
+    text-align: center;
+    background-color: #D3D2CD;
+}

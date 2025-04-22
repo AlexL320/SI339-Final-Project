@@ -19,3 +19,21 @@ sections.forEach((section, index) => {
   }
 });
 
+var button_two = document.querySelector("#button");
+button_two.addEventListener("click", function() {
+  console.log("clicked")
+  var secitons = document.querySelectorAll("section");
+  sections.forEach((section,index) => {
+    const stats = section.querySelector("#stats");
+    if (stats.style.display == "grid"){
+      stats.style.display = "none";
+      button_two.innerHTML = "Keyboard Restricted";
+      console.log("hide stats");
+    }
+    else {
+      stats.style.display = "grid";
+      button_two.innerHTML = "Not Keyboard Restricted";
+      console.log("show stats");
+    }
+  })
+})
