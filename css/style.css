@@ -197,6 +197,16 @@ header li{
     margin: 5% 1%;
 }
 
+.main_armor h2{
+    font-size: 20px;
+    color: black;
+    background-color: #9e9a75;
+    text-align: center;
+    width: 55.5%;
+    margin: 0 20%;
+    border: 5px solid black;
+}
+
 .main_armor p {
     text-align: center;
     color: white;
