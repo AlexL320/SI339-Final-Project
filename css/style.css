@@ -247,12 +247,12 @@ header li{
     background-color: #C1DBF2;
 }
 
-.main_navy h3{
+.navy_h2{
     font-size: 20px;
     color: black;
     background-color: #9e9a75;
     text-align: center;
-    width: 60%;
+    width: 56.5%;
     margin: 0 20%;
     border: 5px solid black;
 }
