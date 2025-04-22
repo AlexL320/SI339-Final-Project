@@ -308,7 +308,7 @@ header li{
 .main_air {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 1%;
+    row-gap: 3%;
     column-gap: 3%;
     margin: 5% 0;
 }
@@ -375,4 +375,22 @@ header li{
     background-color: #b0b0b0;
     border: 5px solid black;
     z-index: 2;
+}
+
+@media (prefers-reduced-motion) {
+    .main_army section img:hover + p {
+        animation-duration: 0s;
+    }
+
+    .main_navy section img:hover + p {
+        animation-duration: 0s;
+    }
+
+    .main_armor section img:hover + p {
+        animation-duration: 0s;
+    }
+
+    .main_air section img:hover + p {
+        animation-duration: 0s;
+    }
 }
