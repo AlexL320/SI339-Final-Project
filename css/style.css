@@ -407,3 +407,27 @@ header li{
 button:focus {
     border: 4px solid red;
 }
+
+.error{
+    background-color: #CFC096;
+    border: solid #575294 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 3%;
+    padding: 3%;
+}
+
+.error h1 {
+    font-size: 50px;
+    font-weight: 900;  
+    font-family: Helvetica, Arial, sans-serif;   
+    padding: 2%;
+}
+
+.error p{
+    font-size: 50px;
+    font-weight: 900;  
+    font-family: Helvetica, Arial, sans-serif;   
+    padding: 2%;
+} 
