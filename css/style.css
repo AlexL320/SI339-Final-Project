@@ -42,7 +42,8 @@ body{
 h1{
     color: white;
     font-size: 45px;
-    margin: 8px;
+    margin: 5% 38%;
+    margin-top: 5%;
     padding: 8px;
     text-align: center;
 }
@@ -65,22 +66,6 @@ h2{
 
 .current {
     background-color: #ffbd00;
-}
-
-h1{
-    margin-top: 1%;
-}
-
-.army_h1{
-    color: white
-}
-
-.navy_h1{
-    color: black;
-}
-
-.airforce_h1{
-    color: white;
 }
 
 /*Index*/
@@ -124,6 +109,11 @@ header li{
     background-color: #41533b;
 }
 
+.army_h1{
+    color: black;
+    background-color: #9e9a75;
+}
+
 .main_army{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -133,7 +123,7 @@ header li{
 }
 
 .main_army h2{
-    font-size: 20px;
+    font-size: 30px;
     color: black;
     background-color: #9e9a75;
     text-align: center;
@@ -198,7 +188,7 @@ header li{
 }
 
 .main_armor h2{
-    font-size: 20px;
+    font-size: 30px;
     color: black;
     background-color: #9e9a75;
     text-align: center;
@@ -231,7 +221,12 @@ header li{
     background-color: #21659E;
 }
 
-.navy header li {
+.navy header li{
+    background-color: #C1DBF2;
+}
+
+.navy header h1{
+    color: black;
     background-color: #C1DBF2;
 }
 
@@ -320,6 +315,11 @@ header li{
 }
 
 .air header li {
+    background-color: #D3D2CD;
+}
+
+.airforce_h1{
+    color: black;
     background-color: #D3D2CD;
 }
 
