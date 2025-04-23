@@ -29,13 +29,13 @@ button_two.addEventListener("click", function() {
     if (stats.style.display == "grid"){
       stats.style.display = "none";
       text.style.visibility = "hidden"
-      button_two.innerHTML = "Keyboard Restricted";
+      button_two.innerHTML = "Not Keyboard Restricted";
       console.log("hide stats");
     }
     else {
       stats.style.display = "grid";
       text.style.visibility = "visible"
-      button_two.innerHTML = "Not Keyboard Restricted";
+      button_two.innerHTML = "Keyboard Restricted";
       console.log("show stats");
     }
   })
