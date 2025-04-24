@@ -40,3 +40,6 @@ button_two.addEventListener("click", function() {
     }
   })
 })
+
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
