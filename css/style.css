@@ -387,6 +387,10 @@ header li{
     grid-column: 2 / span 1;
 }
 
+.footer_air p{
+    color: black;
+}
+
 .air_img{
     width: 63.3%;
     margin: 0% 20%;
