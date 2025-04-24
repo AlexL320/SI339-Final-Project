@@ -68,6 +68,14 @@ h2{
     background-color: #ffbd00;
 }
 
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
 /*Index*/
 .index_body{
     margin: 20px;
@@ -102,6 +110,15 @@ header li{
     margin: 10px;
     padding: 10px;
     margin: 0 20%;
+}
+
+.index_footer{
+    margin: 1% 0;
+}
+
+.index_footer p:last-child{
+    background-color: white;
+    margin: 0 45%;
 }
 
 /*Army*/
@@ -176,6 +193,16 @@ header li{
     background-color: #b0b0b0;
     border: 5px solid black;
     z-index: 2;
+}
+
+.army_footer{
+    padding: 3%;
+    margin-top: 5%;
+}
+
+.army_footer p:last-child{
+    background-color: #ffbd00;
+    margin: 0 45%;
 }
 
 /*armoured*/
@@ -308,6 +335,10 @@ header li{
     margin: 0 20%;
 }
 
+.navy_footer p:last-child{
+    background-color: #C1DBF2;
+    margin: 0 45%;
+}
 
 /*airforce*/
 .air{
@@ -387,8 +418,14 @@ header li{
     grid-column: 2 / span 1;
 }
 
-.footer_air p{
+.air_footer p{
     color: black;
+}
+
+.air_footer p:last-child{
+    color: black;
+    background-color: #D3D2CD;
+    margin: 0 45%;
 }
 
 .air_img{
