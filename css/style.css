@@ -485,7 +485,7 @@ button:focus {
 } 
 
 .too_much_content {
-    margin-bottom: 40%;
+    margin-bottom: 50%;
 }
 
 .army_too_much {
@@ -497,9 +497,9 @@ button:focus {
 }
 
 .crusier_too_much {
-    margin-bottom: 22%;
+    margin-bottom: 31%;
 }
 
 .large_too_much {
-    margin-bottom: 13%;
+    margin-bottom: 15%;
 }
