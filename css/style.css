@@ -68,14 +68,6 @@ h2{
     background-color: #ffbd00;
 }
 
-html{
-    height: 100%;
-}
-
-body{
-    height: 100%;
-}
-
 /*Index*/
 .index_body{
     margin: 20px;
@@ -196,8 +188,10 @@ header li{
 }
 
 .army_footer{
+    display: inline-block;
+    width: 100%;
     padding: 3%;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .army_footer p:last-child{
@@ -335,6 +329,12 @@ header li{
     margin: 0 20%;
 }
 
+.navy_footer{
+    display: inline-block;
+    margin-top: 10%;
+    width: 100%;
+}
+
 .navy_footer p:last-child{
     background-color: #C1DBF2;
     margin: 0 45%;
@@ -416,6 +416,12 @@ header li{
 
 .main_air:last-child(){
     grid-column: 2 / span 1;
+}
+
+.air_footer{
+    display: inline-block;
+    margin-top: 10%;
+    width: 100%;
 }
 
 .air_footer p{
