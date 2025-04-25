@@ -483,3 +483,23 @@ button:focus {
     font-family: Helvetica, Arial, sans-serif;   
     padding: 2%;
 } 
+
+.too_much_content {
+    margin-bottom: 40%;
+}
+
+.army_too_much {
+    margin-bottom: 7%;
+}
+
+.navy_too_much {
+    margin-bottom: 8%;
+}
+
+.crusier_too_much {
+    margin-bottom: 22%;
+}
+
+.large_too_much {
+    margin-bottom: 13%;
+}
