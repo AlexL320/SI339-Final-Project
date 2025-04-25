@@ -16,6 +16,11 @@
     }
 }
 
+body{
+    overflow: visible;
+    height: 100%;
+}
+
 .skip{
     position: absolute;
     top: -40px;
@@ -360,6 +365,7 @@ header li{
     row-gap: 1%;
     column-gap: 3%;
     margin: 5% 0;
+    height: 100%;
 }
 
 .main_air h2 {
